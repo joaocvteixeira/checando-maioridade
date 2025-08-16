@@ -7,7 +7,7 @@ public class App {
      System.out.println("Digite sua idade: ");
      idade = ler.nextInt();
 
-     if (idade < 18) {
+     if (idade < 16) {
         System.out.println("Não pode votar, pois não tem a idade mínima requerida.");
      }
      else {
